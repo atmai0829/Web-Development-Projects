@@ -1,0 +1,66 @@
+.rbc-today {
+  background-color: #303030 !important;
+}
+
+.rbc-off-range-bg {
+  background: #4e4e4e !important;
+}
+
+.CalendarDisp {
+  height: 100%;
+  color: #ffffe3;
+}
+
+.rbc-btn-group button:not(.rbc-active) {
+  color: #ffffe3;
+}
+
+.rbc-btn-group .rbc-active {
+  color: #10100e;
+}
+
+.rbc-toolbar {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+}
+
+.rbc-btn-group > button:nth-child(4) {
+  display: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+@media (min-width: 600px) {
+  .rbc-toolbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+
+  .rbc-btn-group > button:nth-child(4) {
+    display: inline;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .rbc-today {
+    background-color: #303030 !important;
+  }
+
+  .rbc-off-range-bg {
+    background: #4e4e4e !important;
+  }
+
+  .CalendarDisp {
+    height: 100%;
+    color: #ffffe3;
+  }
+
+  .rbc-btn-group button:not(.rbc-active) {
+    color: #ffffe3;
+  }
+
+  .rbc-btn-group .rbc-active {
+    color: #10100e;
+  }
+}

@@ -1,0 +1,289 @@
+.loginHolder {
+  inline-size: 100%;
+  block-size: 100%;
+  border-radius: 10px;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.anothaHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+  inline-size: 20rem;
+}
+.loginArea {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo1 {
+  height: 10rem;
+}
+
+.logo {
+  height: 7.5rem;
+  padding-left: 2rem;
+}
+
+header {
+  color: black;
+}
+.inputGroup {
+  inline-size: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: (89, 195, 244, 255);
+}
+
+.formButton {
+  inline-size: calc(100% - 2rem);
+  block-size: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #20201d;
+  border: none;
+  border-radius: 20px;
+  padding: 1rem;
+  color: #ffffe3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formButton:active {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formButton:focus-visible {
+  outline: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formButton1 {
+  inline-size: calc(100% - 0.5rem);
+  block-size: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #10100e;
+  border: none;
+  border-radius: 20px;
+  padding: 1rem;
+  color: #ffffe3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formButton1:active {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formButton1:focus-visible {
+  outline: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:active {
+  background-color: #43433d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logoHolder1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: -1rem;
+  width: 100%;
+}
+button {
+  background-color: #20201d;
+  color: #ffffe3;
+  border-radius: 20px;
+  padding: 1rem;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: 550;
+  font-size: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  inline-size: 100%;
+  text-align: center;
+}
+
+.registerHere {
+  color: #ffffe3;
+  text-align: center;
+}
+
+.registerHere:hover {
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.errorHolder {
+  block-size: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .loginHolder {
+    inline-size: 100%;
+    block-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .anothaHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+    inline-size: 20rem;
+  }
+  .loginArea {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo1 {
+    height: 10rem;
+  }
+
+  .logo {
+    height: 7.5rem;
+    padding-left: 2rem;
+  }
+
+  header {
+    color: black;
+  }
+  .inputGroup {
+    inline-size: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: (89, 195, 244, 255);
+  }
+
+  .formButton {
+    inline-size: calc(100% - 2rem);
+    block-size: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #20201d;
+    border: none;
+    border-radius: 20px;
+    padding: 1rem;
+    color: #ffffe3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .formButton:active {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .formButton:focus-visible {
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .formButton1 {
+    inline-size: calc(100% - 2rem);
+    block-size: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #10100e;
+    border: none;
+    border-radius: 20px;
+    padding: 1rem;
+    color: #ffffe3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .formButton1:active {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .formButton1:focus-visible {
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  button:active {
+    background-color: #43433d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .logoHolder1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: -1rem;
+    width: 100%;
+  }
+  button {
+    background-color: #20201d;
+    color: #ffffe3;
+    border-radius: 20px;
+    padding: 1rem;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 550;
+    font-size: 1rem;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  .buttonGroup {
+    display: flex;
+    justify-content: center;
+    inline-size: 100%;
+    text-align: center;
+  }
+
+  .registerHere {
+    color: #ffffe3;
+    text-align: center;
+  }
+
+  .registerHere:hover {
+    cursor: pointer;
+  }
+
+  .error {
+    color: red;
+    text-align: center;
+  }
+
+  .errorHolder {
+    block-size: 2rem;
+    text-align: center;
+  }
+}

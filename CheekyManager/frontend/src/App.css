@@ -1,0 +1,33 @@
+.mainHolder {
+  inline-size: 100vw;
+  block-size: 100vh;
+  background-color: #10100e;
+}
+
+.content {
+  padding: 2rem;
+  block-size: calc(100% - 4rem);
+  inline-size: calc(100% - 4rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
+@media (min-width: 600px) {
+  .mainHolder {
+    inline-size: 100vw;
+    block-size: 100vh;
+    background-color: #10100e;
+  }
+
+  .content {
+    padding: 2rem;
+    block-size: calc(100% - 4rem);
+    inline-size: calc(100% - 4rem);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+  }
+}

@@ -1,0 +1,22 @@
+.completedViewContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4rem;
+    width: 100%;
+  }
+
+  .tempHolder1 {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+  }
+
+  .tempHolder1 header{
+    width: 17rem;
+  }
+
+  .tempHolder1 > .inputGroup{
+    width: 237px;
+  }

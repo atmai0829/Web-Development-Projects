@@ -1,0 +1,90 @@
+main {
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr; 
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "follow user"
+    "follow howls";
+  gap: 16px;
+  max-width: 850px;
+  margin: 20px auto;
+}
+
+/** Following List **/
+#howlFollowing {
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: white;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#howlFollowing div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: small;
+  img {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  border-radius: 0%;
+  box-shadow: none;
+}
+
+#howlFollowing div:last-child {
+  border-bottom: none;
+}
+
+.user.container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.follow-button {
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+}
+
+.howlUser.box {
+    grid-area: user;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.howlFollowing.box {
+    grid-area: follow;
+}
+
+.howlList.box {
+    grid-area: howls;
+}
+
+#howlUser div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  img {
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+}
+
+#howlList {
+    grid-area: howls;
+}

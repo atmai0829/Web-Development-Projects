@@ -1,0 +1,43 @@
+.home {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  width: 100%;
+  color: #ffffe3;
+  font-size: 1rem;
+}
+
+.logoHolder {
+  padding-top: 2rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  gap: 2rem;
+  font-size: 2rem;
+}
+
+@media (min-width: 600px) {
+  .home {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4rem;
+    width: 100%;
+    color: #ffffe3;
+    font-size: 1rem;
+  }
+
+  .logoHolder {
+    padding-top: 2rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 5rem;
+    font-size: 5rem;
+  }
+}
